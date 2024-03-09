@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   my_job:
-    name: deploy to staging
+    name: deploy to stagingbot
   runs-on: windows-latest
   build:
 
@@ -46,7 +46,7 @@ jobs:
       with:
         node-version: '10.x'
 
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
+    # Add a testA script 1667170863 to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     # - name: Run test suite
