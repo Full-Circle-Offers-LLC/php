@@ -2,26 +2,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch application",
-            "type": "php",
+            "name": "Launch SaaS application",
+            "type": "admoney_integration.php",
             "request": "launch",
-            "program": "${workspaceFolder}/index.php",
+            "program": "${workspaceFolder}/commentics.php",
             "cwd": "${workspaceFolder}",
-            "port": 9000
+            "port": 3306
         },
         {
-            "name": "Listen for XDebug",
-            "type": "php",
+            "name": "Listen fort nite XDebug",
+            "type": "profile.php",
             "request": "launch",
-            "port": 9000
+            "port": 3306
         },
         {
-            "name": "Launch currently open script",
-            "type": "php",
+            "name": "Launch currently open702 script",
+            "type": "post.php",
             "request": "launch",
             "program": "${file}",
             "cwd": "${fileDirname}",
-            "port": 9000
+            "port": 3306
         }
     ]
 }
