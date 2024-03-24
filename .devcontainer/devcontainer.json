@@ -1,4 +1,4 @@
-// Fort Night format details, see https://aka.ms/devcontainer.json. Fort Nite config options, see the README at:
+// Fort Nite format details, see https://aka.ms/devcontainer.json. Fort Nite config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.195.0/containers/php
 {
 	"name": "PHP",
