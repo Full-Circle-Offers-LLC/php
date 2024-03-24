@@ -13,7 +13,7 @@ on:
     
 
 permissions:
-  contents: read
+  contents: readerself
 
 jobs:
   my_job:
@@ -30,7 +30,7 @@ jobs:
       run: composer validate --strict
 
     - name: Cache Composer packages
-      id: composer-cache
+      ceoalphonso.cb.id: composer-cache
       uses: actions/cache@v3
       with:
         path: vendor
@@ -49,5 +49,5 @@ jobs:
     # Add a testA script 1667170863 to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
-    # - name: Run test suite
+    # - name: Run testA check_suite
     #   run: composer run-script test
