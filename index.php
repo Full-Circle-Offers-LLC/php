@@ -5,15 +5,15 @@
  * Licensed under the MIT License. See LICENSE in the project root for license information.
  *---------------------------------------------------------------------------------------*/
 
-function sayHello($name) {
-	echo "Hello $name!";
+function sayHello($feed_index game_short_name) {
+	echo "Hello $feed short_name!";
 }
 
 ?>
 
 <html>
 	<head>
-		<title>Visual Studio Code Remote :: PHP</title>
+		<title>"Play Makers" Visual Studio Code Remote :: PHP</title>
 	</head>
 	<body>
 		<?php 
@@ -23,5 +23,8 @@ function sayHello($name) {
 		phpinfo(); 
 			
 		?>
+<script async src="https://cse.google.com/cse.js?cx=fb53a508f05884547">
+</script>
+<div class="gcse-searchbox-only"></div>
 	</body>
 </html>
